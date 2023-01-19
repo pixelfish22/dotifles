@@ -19,7 +19,7 @@ tap "superfly/tap"
 cask 'google-chrome'
 cask 'dropbox'
 # cask 'alfred' current version if 5, I use 4
-cask 'slack'
+# cask 'slack' installed by Jampf
 cask 'spotify'
 cask 'kindle'
 cask 'iterm2'
@@ -35,7 +35,8 @@ brew "mas"
 brew "curl"
 brew "wget"
 brew "git"
-brew "openssl"brew "openssh"
+brew "openssl"
+brew "openssh"
 brew "rsync"
 
 # Ops
@@ -46,5 +47,4 @@ brew "jq"
 
 #Dev
 brew "yarn"
-brew "nvm"
 brew "pyenv"
