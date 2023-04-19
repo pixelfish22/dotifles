@@ -1,7 +1,7 @@
 
 
 # tap setup
-tap "homebrew/core"
+tap "homebrew/core" # errored out last time
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "buo/cask-upgrade"
@@ -22,9 +22,8 @@ cask 'dropbox'
 # cask 'slack' installed by Jampf
 cask 'spotify'
 cask 'kindle'
-cask 'iterm2'
-cask "obs"
-cask "java"
+# cask 'iterm2'
+cask "obs" ## screen-recorder
 cask "visual-studio-code"
 cask "firefox"
 
@@ -35,8 +34,8 @@ brew "mas"
 brew "curl"
 brew "wget"
 brew "git"
-brew "openssl"
-brew "openssh"
+# brew "openssl"
+# brew "openssh"
 brew "rsync"
 
 # Ops

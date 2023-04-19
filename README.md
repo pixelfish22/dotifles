@@ -44,3 +44,11 @@ The most basic command
 looks for ~/Brewfile and installs its contents or to install from _*this*_ repo (assuming this is in ~/repos/dotifles/ ) it would be 
 
 `brew bundle install --file=~/repos/dotifles/Brewfile`
+
+## Show hidden files (using Terminal commands)
+1. Open Terminal
+2. Enter the following: 
+`defaults write com.apple.Finder AppleShowAllFiles true`
+  `killall Finder`
+
+[source](https://setapp.com/how-to/show-hidden-files-on-mac)
