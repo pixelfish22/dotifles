@@ -9,8 +9,6 @@ tap "homebrew/cask-fonts"
 # from my old mbp
 tap "cloudflare/cloudflare"
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 tap "homebrew/services"
 tap "superfly/tap"
 # Casks
