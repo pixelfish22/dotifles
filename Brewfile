@@ -1,6 +1,7 @@
 
 
 # tap setup
+tap "buo/cask-upgrade"
 tap "homebrew/core" # errored out last time
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -11,6 +12,7 @@ tap "cloudflare/cloudflare"
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "superfly/tap"
+tap "romkatv/powerlevel10k"
 # Casks
 ## todo firefox dev dev edition
 #  https://stackoverflow.com/questions/71283020/how-to-install-firefox-developer-edition-via-homebrew
@@ -20,10 +22,10 @@ cask 'dropbox'
 # cask 'slack' installed by Jampf
 cask 'spotify'
 cask 'kindle'
-# cask 'iterm2'
 cask "obs" ## screen-recorder
 cask "visual-studio-code"
 cask "firefox"
+cask "discord"
 
 # System
 brew "zsh-completions"
@@ -32,9 +34,11 @@ brew "mas"
 brew "curl"
 brew "wget"
 brew "git"
-# brew "openssl"
-# brew "openssh"
 brew "rsync"
+brew "romkatv/powerlevel10k/powerlevel10k"
+
+# Misc
+brew "lastpass-cli"
 
 # Ops
 brew "awscli"
@@ -45,3 +49,4 @@ brew "jq"
 #Dev
 brew "yarn"
 brew "pyenv"
+cask "postman"
